@@ -32,10 +32,10 @@ npm i --save-dev babel-plugin-transform-default-import
 
 ```json
 {
-  "plugins": ["transform-default-import", {
-      "default": "__DEFAULT__",
-      "namespace": "__NAMESPACE__"
-  }]
+    "plugins": ["transform-default-import", {
+        "default": "__DEFAULT__",
+        "namespace": "__NAMESPACE__"
+    }]
 }
 ```
 
@@ -43,11 +43,11 @@ npm i --save-dev babel-plugin-transform-default-import
 
 ```json
 {
-  "babel": {
-      "plugins": ["transform-default-import", {
-        "default": "__DEFAULT__",
-        "namespace": "__NAMESPACE__"
-    }]
-  }
+    "babel": {
+        "plugins": ["transform-default-import", {
+            "default": "__DEFAULT__",
+            "namespace": "__NAMESPACE__"
+        }]
+    }
 }
 ```
