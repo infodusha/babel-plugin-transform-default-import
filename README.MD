@@ -3,13 +3,13 @@
 Transforms default import into namespace import (for libs).
 
 ```javascript
-import apollo from "apollo";
+import apollo from "apollo-server";
 ```
 
 transform to
 
 ```javascript
-import apollo__DEFAULT__, * as apollo__NAMESPACE__ from "apollo";
+import apollo__DEFAULT__, * as apollo__NAMESPACE__ from "apollo-server";
 const apollo = apollo__DEFAULT__ || apollo__NAMESPACE__;
 ```
 
