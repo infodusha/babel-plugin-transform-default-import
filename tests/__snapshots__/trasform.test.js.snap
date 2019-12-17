@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transform default import changes default import with custom options: changes default import with custom options 1`] = `
+
+import df from "module";
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+import dfDF, * as dfNS from "module";
+const df = dfDF || dfNS;
+
+
+`;
+
+exports[`transform default import changes default import: changes default import 1`] = `
+
+import df from "module";
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+import df__DEFAULT__, * as df__NAMESPACE__ from "module";
+const df = df__DEFAULT__ || df__NAMESPACE__;
+
+
+`;
+
+exports[`transform default import changes default with namespace and custom options: changes default with namespace and custom options 1`] = `
+
+import df, * as namespace from "module";
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+import dfDF, * as namespace from "module";
+const df = dfDF || namespace;
+
+
+`;
+
+exports[`transform default import changes default with namespace: changes default with namespace 1`] = `
+
+import df, * as namespace from "module";
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+import df__DEFAULT__, * as namespace from "module";
+const df = df__DEFAULT__ || namespace;
+
+
+`;

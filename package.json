@@ -1,0 +1,24 @@
+{
+  "name": "babel-plugin-transform-default-import",
+  "version": "1.0.0",
+  "description": "Transforms default import into namespace import.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/infodusha/babel-plugin-transform-default-import"
+  },
+  "author": "infodusha",
+  "license": "MIT",
+  "keywords": [
+    "babel",
+    "plugin",
+    "transform"
+  ],
+  "devDependencies": {
+    "babel-plugin-tester": "^8.0.1",
+    "jest": "^24.9.0"
+  }
+}
